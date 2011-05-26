@@ -1,0 +1,536 @@
+commit d53cf56b2f4069c393f0a1ee57df7ba9b2c2e0fb
+Author: Justin Philip <rqwt36@motorola.com>
+Date:   Wed Apr 28 19:44:33 2010 -0700
+
+    Issue: IKMORRISON-1484 WIFI feature ID 16520 BCM Driver 4.217.34.14 Integartion Reviewed by Tony Kokab
+
+commit f1ec219bd90fd704690ed0ebcbbdc5d21c3fc418
+Author: Dima Ornatsky <cdo021c@dynamo.am.mot.com>
+Date:   Thu Mar 25 20:43:03 2010 -0500
+
+    Broadcom RC34.13 maintenance release
+
+commit c3e1f8ac7925f2f63dad07b5f34765076751a666
+Merge: 0bd8f05 76c7fe1
+Author: Fenwick Peng <fenwick.peng@motorola.com>
+Date:   Tue Feb 23 10:22:57 2010 -0600
+
+    Merge commit 'arsenal-qcom/bug50071-cdo021c-driver-rc34.11' into ssw-stable
+
+commit 76c7fe16fde2bdc080b2bccc4c1d5e3f44b22da7
+Author: Dmitry Ornatsky <cdo021c@motorola.com>
+Date:   Thu Feb 18 15:42:55 2010 -0600
+
+    Broadcom driver RC34.11
+
+commit 0bd8f05a52fb035b7b9e6a0cfe297040fbaba547
+Author: Dmitry Ornatsky <cdo021c@motorola.com>
+Date:   Mon Dec 7 10:34:04 2009 -0600
+
+    WLAN rc34.9 driver from Broadcom
+
+commit 57d3eea694ddaacf90be2460cf93704f51807cb2
+Merge: a37fb4f b76ddd4
+Author: Fenwick Peng <fenwick.peng@motorola.com>
+Date:   Fri Nov 13 10:16:34 2009 -0600
+
+    Merge commit 'arsenal-qcom/bug37001-6380-cdo021c-rc34.8' into ssw-stable
+
+commit b76ddd4b364f7004eecfdb45cda7ba9be33a195a
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Thu Nov 12 22:45:21 2009 -0600
+
+    rc34.8 commit
+
+commit a37fb4fae12d22ffdc99bf9d1449eda73601e0aa
+Merge: 8162afc f84a8f2
+Author: Fenwick Peng <fenwick.peng@motorola.com>
+Date:   Mon Oct 19 12:20:47 2009 -0500
+
+    Merge commit 'arsenal-qcom/bug32630-6380-cdo021c-rc34-main-line-merge' into ssw-stable
+
+commit f84a8f2c5d8c0481347d5de91d6dead719cb5b2d
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Fri Oct 16 11:51:28 2009 -0500
+
+    rc34.6 branch for main line
+
+commit 8162afc9e1f4955778a6c6c6b40949d5f8e6fa8b
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Mon Sep 28 18:45:04 2009 -0500
+
+    Broadcom Rc27.12 driver
+
+commit a471d7c9ad784030ded9a5ccb9c7e24ba337bd52
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Fri Sep 25 16:26:57 2009 -0500
+
+    add wake_lock_timeout for link down events
+
+commit 93e3bb079bbbddbc122094e7696787313f0ee4e8
+Merge: 972f1b3 d5435ee
+Author: Fenwick Peng <fenwick.peng@motorola.com>
+Date:   Fri Sep 25 10:07:28 2009 -0500
+
+    Merge commit 'arsenal-qcom/bug26921-6380-cdo021c-rc27.11-wlan-driver' into ssw-stable
+    
+    Conflicts:
+    
+    	open-src/src/dhd/sys/dhd_linux.c
+
+commit d5435ee70f3c74aeb008c95b1b4aa85318066943
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Thu Sep 24 11:24:54 2009 -0500
+
+    Broadcom driver RC27.11
+
+commit 972f1b33d5face14bb0d4085967b5003a6aba195
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Tue Sep 22 11:19:48 2009 -0500
+
+    log details for enodev error
+
+commit 4aeda7ef1782c440c16fd9e39b3bd68c5e524bca
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Wed Sep 16 11:43:02 2009 -0500
+
+    commented out straight printk
+
+commit 9df73309fd04d11e9f7b5b43aeaa29f0f909d106
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Wed Sep 16 11:33:25 2009 -0500
+
+    Broadcom RC27.10 release
+
+commit 2915e17b89134d2f305db3b5a377c9bba3b5506c
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Tue Sep 1 12:44:08 2009 -0500
+
+    remove stray printk and move morrison hw def to makefile
+
+commit 40227e4d9b9133905eee39567b24a865ccfa66d7
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Tue Sep 1 12:17:45 2009 -0500
+
+    fix up dhdarm android.mk
+
+commit 71a825f5f2abce983ea4dbd9015d4e1089238835
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Tue Sep 1 12:00:46 2009 -0500
+
+    Broadcom point release RC27.8
+
+commit 9ee84659ee8bd9e5e311453657a20d1e34ec8150
+Merge: 0e8bb52 73bc227
+Author: Fenwick Peng <fenwick.peng@motorola.com>
+Date:   Fri Aug 21 11:34:06 2009 -0500
+
+    Merge commit 'arsenal-qcom/bug13621-6380-cdo021c-oob-support' into ssw-stable
+
+commit 73bc227af931ec0441ad824f656cf310abfea29c
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Thu Aug 20 22:43:36 2009 -0500
+
+    removed printks
+
+commit 096f3794e73b1836506d276eb1a9311e7205e4cb
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Thu Aug 20 22:27:32 2009 -0500
+
+    removed printks
+
+commit bd62ed0df010dbae9470e5414f92f7480172f616
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Thu Aug 20 21:43:46 2009 -0500
+
+    firmware for OOB
+
+commit 0e8bb52078a9a1273a7e8822817faef0f41c3ae1
+Author: Fenwick Peng <fenwick.peng@motorola.com>
+Date:   Thu Aug 20 10:59:37 2009 -0500
+
+    fixed .gitignore
+
+commit db5944e55c03e60eacf6698c01dbc28966043c73
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Wed Aug 19 23:46:32 2009 -0500
+
+    driver source changes for OOB support
+
+commit 8ac16acb7b3b0cd0ab0f86406f2deed2f622cf8b
+Author: Fenwick Peng <fenwick.peng@motorola.com>
+Date:   Tue Aug 18 18:37:32 2009 -0500
+
+    fixed notice file for dhd.ko
+
+commit d7296dd31d26a4806e38a7358552ad79748be594
+Merge: 2749c79 e41383b
+Author: Fenwick Peng <fenwick.peng@motorola.com>
+Date:   Thu Aug 13 13:55:31 2009 -0500
+
+    Merge commit 'arsenal-qcom/bug19979-6380-cdo021c-bcm-osrb' into ssw-stable
+
+commit e41383b542e3104e58e5e9ca416daef339b8763c
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Thu Aug 13 11:39:14 2009 -0500
+
+    remove all prebuild files from bcm osrc folder per osrb
+
+commit 2749c790f8ad47afb0e816edd5f1a897b6e7d14e
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Wed Aug 12 11:50:02 2009 -0500
+
+    revert bt_parm66 back to default dhcp state
+
+commit 7d9e948c43e6036797e17e05200618db58f57222
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Tue Aug 11 23:19:20 2009 -0500
+
+    fixes for coex problems audio and scanning
+
+commit b35638666c3d470378e7c101352222ee4ce2e7cb
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Sun Aug 9 23:01:08 2009 -0500
+
+    dynamic dhcp change and firmware download wake_lock
+
+commit ca75b970e392603fb55746f2adc8171222880ca9
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Mon Aug 3 23:06:20 2009 -0500
+
+    wlan decrease disconnect timeout on beacon loss from 8 to 3 seconds
+
+commit 75353759eba553d323207ea174a6e3abbd47e671
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Wed Jul 29 10:33:29 2009 -0500
+
+    bug14699 supplic ant crash
+
+commit fff0e779a047c910cfc9f67c13e61c712b1fdb7a
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Fri Jul 24 16:32:59 2009 -0500
+
+    bug15903 static data buffers use in dhd
+
+commit 8d4710a01833cbc4fb63c98d35bcd74fb7a149e3
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Thu Jul 16 18:29:30 2009 -0500
+
+    bug14936 70ma when leaving access point
+
+commit 702adf24cc017393de08b0110b36f5e310a17215
+Author: Fenwick Peng <fenwick.peng@motorola.com>
+Date:   Thu Jul 9 15:12:42 2009 -0500
+
+    Notice file update
+
+commit adeb1496d8502eab25faf4a1af899e4cc3b667f0
+Merge: b91f53f 9704024
+Author: Fenwick Peng <fenwick.peng@motorola.com>
+Date:   Mon Jul 6 10:57:01 2009 -0500
+
+    Merge commit 'arsenal-qcom/bug11884-e50202-6380-incorrect-state-for-wifi-hidden-network' into ssw-int
+
+commit 97040240f111957ad0f6e630202e1427b3d7ec86
+Author: e50202 <e50202@hari-laptop.(none)>
+Date:   Thu Jul 2 18:11:03 2009 -0700
+
+    bug11884-e50202-6380-incorrect-state-for-wifi-hidden-network
+
+commit b91f53f3530858b25ee96c4379ed406578add8b6
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Thu Jul 2 17:04:04 2009 -0500
+
+    can not copy strip before it is stripped
+
+commit 5abfa90736f7d4ed8408705e3c480d29f250ddff
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Thu Jul 2 14:55:30 2009 -0500
+
+    bug13165 dhd.ko remove debug information
+
+commit e3ab4100df02097d3d9096495dc40c3da140b677
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Sat Jun 20 10:41:11 2009 -0500
+
+    bug9843 wifi power up time
+
+commit d79695edf77e137ff5ce49231b772aaf42c830f7
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Fri Jun 5 15:51:16 2009 -0500
+
+    bug4905 fix for Broadcom lockup
+
+commit 5cc9107d8bda55035f0ded5246280711b2ebaab2
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Wed May 27 19:41:00 2009 -0500
+
+    bug8040 power consumption
+
+commit f90e5ec32d3fbb1d9a2940d0ff6c8ceb9de4895c
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Tue May 26 10:48:36 2009 -0500
+
+    bug7855 add dynamic country configuration driver side
+
+commit 5558963bb5e7f94219f95711309627cd203ada60
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Thu May 14 18:34:11 2009 -0500
+
+    bug4905 wifi on-off loop
+
+commit 037e88ec210add45eec45bb3d0b9b1edf1068a51
+Merge: d99c38b 84ac6c7
+Author: Andrew Wheeler <awheeler@motorola.com>
+Date:   Sun May 3 18:28:53 2009 -0500
+
+    Merge branch 'SSW-R2-40' into aci
+
+commit d99c38bae573358a6784bbcccf8cc08ea9b05c03
+Merge: 8b8973c fe3f511
+Author: Wang Qi <e6537c@motorola.com>
+Date:   Thu Apr 30 21:40:02 2009 -0700
+
+    Merge s-c-i (6365-R1-13) to a-c-i
+
+commit 84ac6c7993463bd9cb2ed055c2c1d8d8e98bdca7
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Wed Apr 29 19:25:43 2009 -0500
+
+    bug5188 6365 branch for wlan driver rc27
+
+commit 96fffc0641985ae0995257d55e17c658899db32b
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Wed Apr 29 19:19:40 2009 -0500
+
+    bug5188 6365 branch for wlan driver rc27
+
+commit fe3f5115401f8441a33061abbaf646f4d98edcba
+Author: Andrew Wheeler <thf876@dynamo.am.mot.com>
+Date:   Mon Apr 27 18:34:00 2009 -0500
+
+    initial commit from 6365-ohd-mot-built-4.tgz
+
+commit 8b8973cf7277418c821ae08a58a96f1479efd2d2
+Merge: e67bbcc 595db5b
+Author: Andrew Wheeler <thf876@dynamo.am.mot.com>
+Date:   Wed Apr 15 22:33:42 2009 -0500
+
+    Merge commit 'arsenal-qcom/sv-stable' into int
+
+commit e67bbcca7e8ed9e9bef7309e028a1a927b35ee37
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Fri Apr 10 16:29:29 2009 -0500
+
+    bug3844 scan complete lpm enable
+
+commit 595db5be91c5a1a9083c84510a642727b6755aba
+Merge: d576660 6929472
+Author: Maulik Desai <mdesai@motorola.com>
+Date:   Fri Apr 10 00:22:01 2009 -0700
+
+    Merge syssw 6355 changes to all-cupcake-integration (copymerge)
+    
+    Merge branch 'all-cupcake-integration' into syssw-6355-merge
+
+commit d57666069981a882fc53a56fc6f1a1ed61b66aa8
+Author: Igor Kovalenko <cik009@motorola.com>
+Date:   Wed Apr 8 01:24:19 2009 -0500
+
+    Fix up build for layout change (back to google)
+
+commit 3ca4f6247568e07c9b398d0965aa9420e2d7246e
+Author: Igor Kovalenko <cik009@motorola.com>
+Date:   Sat Apr 4 01:56:06 2009 -0500
+
+    Fix WiFi, Update APPSBL & partition table, fix Motus build, move TPO panel to common, clean up common
+
+commit 1fe1863b0743b664307267d58c8c32dc3e765c36
+Author: Andrew Wheeler <thf876@dynamo.am.mot.com>
+Date:   Thu Apr 2 08:46:42 2009 -0500
+
+    applied android_mtc_wifi_fix
+
+commit feb07951301419e3899164765e596f64eaa7cdd7
+Author: Andrew Wheeler <thf876@dynamo.am.mot.com>
+Date:   Wed Apr 1 15:15:14 2009 -0500
+
+    Igor's 1 April update
+
+commit 732e948a14d23b49390f661fc0084f2ec324223c
+Author: Andrew Wheeler <thf876@dynamo.am.mot.com>
+Date:   Wed Apr 1 06:43:33 2009 -0500
+
+    initial commit (cupcake)
+
+commit 69294724b8d385fdfa708219187443926bffb544
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Sun Mar 22 01:37:05 2009 -0500
+
+    bug2177 remove wlan-on-off until fix from broadcom
+
+commit 3559d37255bf9219f5bbb6d36d767772fee86904
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Sun Mar 22 00:27:05 2009 -0500
+
+    bug2177 add change log message severity
+
+commit da4e19f335897fb92fbc2c17e841010cdaec378b
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Fri Mar 20 17:57:39 2009 -0500
+
+    bug 2177 disable passive scan
+
+commit 2546a299ed579649fac7d03ebf512ffc9613ffed
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Sat Mar 7 10:42:26 2009 -0600
+
+    new driver
+
+commit 5e7c41a8f09e95a96957e657fce60194b75e1842
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Fri Mar 6 16:33:31 2009 -0600
+
+    new wlan driver
+
+commit a46d86e43894b23e3f9de59dc63779f27e003ac0
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Fri Mar 6 14:53:30 2009 -0600
+
+    new wlan driver
+
+commit b0675583e68f092562e10bd72111ac92bfeb2589
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Thu Mar 5 08:48:17 2009 -0600
+
+    new wlan driver
+
+commit 02de7e2ee5f32c261a8924933fcb3f2d223aed5c
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Thu Mar 5 03:01:16 2009 -0600
+
+    last minute update from Broadcom
+
+commit b92f3976c49c620f244aa9665969dcbe0a4905b5
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Thu Mar 5 02:26:31 2009 -0600
+
+    new driver 4.217.19
+
+commit 3c6b6956565d1f5ffd9769f7fdab92a2462fe4cf
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Thu Mar 5 02:18:34 2009 -0600
+
+    new driver 4.217.19
+
+commit b08ea407f38b333bc2e6d8bc23a347d5c0263810
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Thu Mar 5 02:17:00 2009 -0600
+
+    new driver 4.217.19
+
+commit 046c8fe4f7d646f18aaef1141603a799043ec6ee
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Thu Mar 5 01:08:35 2009 -0600
+
+    new driver 4.217.19
+
+commit 8761594aad4227d374cad2746f41615ef135975b
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Thu Mar 5 00:40:26 2009 -0600
+
+    new driver 4.217.19
+
+commit 2671778465c63aed973c22583e89c518e63978e8
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Thu Mar 5 00:07:58 2009 -0600
+
+    new driver 4.217.19
+
+commit c230744f3d2311629648659f1f14febab29055a9
+Merge: fbdccba 267fb35
+Author: Andrew Wheeler <awheeler@motorola.com>
+Date:   Wed Feb 25 19:03:54 2009 -0600
+
+    Merge commit 'arsenal-dev/thf876-int-sv-stable' into int
+
+commit fbdccba863f00c91f3287522fd2609f17d4deed4
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Wed Feb 25 00:11:18 2009 -0600
+
+    Broadcom fix for hidden SSID
+
+commit 267fb35e8f9c89bf121ac3f52a8c38d7fee021ba
+Merge: 8f3acb5 d6ed391
+Author: Andrew Wheeler <awheeler@motorola.com>
+Date:   Tue Feb 24 22:15:35 2009 -0600
+
+    Merge commit 'arsenal-dev/sv-stable' into int
+
+commit 8f3acb50a82f70cb4a845c3e289d6da5d55fa237
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Mon Feb 16 18:10:41 2009 -0600
+
+    LaJolla OSC fix and shared WEP authentication fix
+
+commit 3f8266ee10f21fdeef990c5e255372a513cef5d1
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Mon Feb 16 01:59:45 2009 -0600
+
+    Makefile change to find product dir, removed logging, fixed motus kernel compilation errors
+
+commit 1ee5cce4c7c1edddd5ac0b8e7dca83140030ee34
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Sat Feb 14 18:16:50 2009 -0600
+
+    removed cscope files
+
+commit 2c2216d2db896160d480a4bc674980bf9293896b
+Author: Dmitry Ornatsky <ornatsky@motorola.com>
+Date:   Sat Feb 14 18:13:24 2009 -0600
+
+    additional upmerges
+
+commit d6ed39133b2195ca5ae23f053ef66549f834a803
+Merge: 27af917 57bfa65
+Author: Andrew Wheeler <awheeler@motorola.com>
+Date:   Sat Feb 7 17:52:52 2009 -0600
+
+    Merge commit 'repo-blurdev/morrison-master-preview' into sv-master-int
+
+commit 27af9178fc74df78d2ce786bdc1771a67b404e36
+Author: Andrew Wheeler <awheeler@motorola.com>
+Date:   Sat Feb 7 10:07:14 2009 -0600
+
+    Added default build option to make & install Morrison's needed binary.
+    (doesn't make-clean).
+
+commit 808908fa2f2b8d074701060cf4b760c5e06efbf3
+Author: Andrew Wheeler <awheeler@motorola.com>
+Date:   Sat Feb 7 09:52:49 2009 -0600
+
+    upmerge bugfix from previous release.
+
+commit 1db59e798e19a8358fae61599f78b361abbca1c0
+Author: Andrew Wheeler <awheeler@motorola.com>
+Date:   Sat Feb 7 09:38:28 2009 -0600
+
+    copy dhd.ko after build.
+
+commit 0eb7811bc18e9769f3dbad42145edfb369c48d3e
+Author: Andrew Wheeler <awheeler@motorola.com>
+Date:   Sat Feb 7 08:12:46 2009 -0600
+
+    ignoring temp dirs
+
+commit 57bfa6570cc979b3156c7fb7cb233abcea01924c
+Author: Rex Tener <mcjw73@motorola.com>
+Date:   Fri Feb 6 23:23:29 2009 -0800
+
+    Add .empty file to make git repo cloneable.
+
+commit f7a87727326490bc6d028d17ff8fe81d619eae61
+Author: Andrew Wheeler <awheeler@motorola.com>
+Date:   Fri Feb 6 20:49:14 2009 -0600
+
+    v4.217.12
