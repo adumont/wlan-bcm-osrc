@@ -260,7 +260,7 @@ typedef float64 float_t;
 
 #if defined(__GNUC__)
 	#define BWL_COMPILER_GNU
-#elif __CC_ARM
+#elif defined(__CC_ARM)
 	#define BWL_COMPILER_ARMCC
 #else
 	#error "Unknown compiler!"
